@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{0CBCE41E-35D8-4149-8B50-182B53BE9E12}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OpenCl", "OpenCl", "{44229B97-FD9D-46A2-8308-4B15367F8D38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomNumberGenerators", "OpenCl\RandomNumberGenerators\RandomNumberGenerators.csproj", "{6568BD0C-EF3C-4A06-9CE7-9D5F3A966D36}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,8 +17,15 @@ Global
 		{0CBCE41E-35D8-4149-8B50-182B53BE9E12}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CBCE41E-35D8-4149-8B50-182B53BE9E12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CBCE41E-35D8-4149-8B50-182B53BE9E12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6568BD0C-EF3C-4A06-9CE7-9D5F3A966D36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6568BD0C-EF3C-4A06-9CE7-9D5F3A966D36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6568BD0C-EF3C-4A06-9CE7-9D5F3A966D36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6568BD0C-EF3C-4A06-9CE7-9D5F3A966D36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6568BD0C-EF3C-4A06-9CE7-9D5F3A966D36} = {44229B97-FD9D-46A2-8308-4B15367F8D38}
 	EndGlobalSection
 EndGlobal

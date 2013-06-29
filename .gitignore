@@ -2,4 +2,8 @@
 
 /Core/bin/
 
+/OpenCl/RandomNumberGenerators/obj/
+
+/OpenCl/RandomNumberGenerators/bin/
+
 /Vroksjab.v11.suo
