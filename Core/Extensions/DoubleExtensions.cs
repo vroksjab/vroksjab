@@ -33,5 +33,15 @@ namespace Vroksjab.Core.Extensions
         {
             return Math.Min(Math.Max(d, min), max);
         }
+
+        public static bool InsideInclusive(this double x, double min, double max)
+        {
+            return x >= min && x <= max;
+        }
+
+        public static bool InsideExclusive(this double x, double min, double max)
+        {
+            return x > min && x < max;
+        }
     }
 }
